@@ -1,0 +1,16 @@
+com.lyokone.location-jetified-window-1.0.0-beta04-0 C:\Users\nitro\.gradle\caches\transforms-3\01d7db25946597559228e612e41688e0\transformed\jetified-window-1.0.0-beta04\res
+com.lyokone.location-jetified-play-services-base-18.3.0-1 C:\Users\nitro\.gradle\caches\transforms-3\1951bc33eeaa9610529bf3483b723c00\transformed\jetified-play-services-base-18.3.0\res
+com.lyokone.location-jetified-annotation-experimental-1.3.0-2 C:\Users\nitro\.gradle\caches\transforms-3\2065787b64f1d6f1eae4c4137c8f3a4a\transformed\jetified-annotation-experimental-1.3.0\res
+com.lyokone.location-jetified-core-ktx-1.10.1-3 C:\Users\nitro\.gradle\caches\transforms-3\22fbb249e00437c7717cbd356ce6eecc\transformed\jetified-core-ktx-1.10.1\res
+com.lyokone.location-jetified-window-java-1.0.0-beta04-4 C:\Users\nitro\.gradle\caches\transforms-3\5041d2e2f63ca8c88b27ced906e20692\transformed\jetified-window-java-1.0.0-beta04\res
+com.lyokone.location-lifecycle-runtime-2.3.1-5 C:\Users\nitro\.gradle\caches\transforms-3\510e29a56ac82faee2b6428983276ef4\transformed\lifecycle-runtime-2.3.1\res
+com.lyokone.location-core-1.10.1-6 C:\Users\nitro\.gradle\caches\transforms-3\c26b441ec97db4694d6a36d402bfbb3c\transformed\core-1.10.1\res
+com.lyokone.location-jetified-play-services-basement-18.3.0-7 C:\Users\nitro\.gradle\caches\transforms-3\f0693f2301b507f3df8a841cc6866955\transformed\jetified-play-services-basement-18.3.0\res
+com.lyokone.location-main-8 C:\Users\nitro\AppData\Local\Pub\Cache\hosted\pub.dev\location-6.0.2\android\src\main\res
+com.lyokone.location-release-9 C:\Users\nitro\AppData\Local\Pub\Cache\hosted\pub.dev\location-6.0.2\android\src\release\res
+com.lyokone.location-pngs-10 C:\Users\nitro\Desktop\tez-main\build\location\generated\res\pngs\release
+com.lyokone.location-resValues-11 C:\Users\nitro\Desktop\tez-main\build\location\generated\res\resValues\release
+com.lyokone.location-rs-12 C:\Users\nitro\Desktop\tez-main\build\location\generated\res\rs\release
+com.lyokone.location-mergeReleaseResources-13 C:\Users\nitro\Desktop\tez-main\build\location\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.lyokone.location-mergeReleaseResources-14 C:\Users\nitro\Desktop\tez-main\build\location\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.lyokone.location-merged_res-15 C:\Users\nitro\Desktop\tez-main\build\location\intermediates\merged_res\release

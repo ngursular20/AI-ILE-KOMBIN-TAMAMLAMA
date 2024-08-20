@@ -1,0 +1,269 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.kombin"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:2:5-67
+11-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+12-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:3:5-76
+12-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:3:22-74
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:4:5-65
+13-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:4:22-62
+14    <!--
+15         Required to query activities that can process text, see:
+16         https://developer.android.com/training/package-visibility?hl=en and
+17         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+18
+19         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+20    -->
+21    <queries>
+21-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:42:5-47:15
+22        <intent>
+22-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:43:9-46:18
+23            <action android:name="android.intent.action.PROCESS_TEXT" />
+23-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:44:13-72
+23-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:44:21-70
+24
+25            <data android:mimeType="text/plain" />
+25-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:45:13-50
+25-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:45:19-48
+26        </intent>
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+29-->[:camera_android] C:\Users\nitro\Desktop\tez-main\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-71
+29-->[:camera_android] C:\Users\nitro\Desktop\tez-main\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-68
+30    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+30-->[:location] C:\Users\nitro\Desktop\tez-main\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+30-->[:location] C:\Users\nitro\Desktop\tez-main\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+31    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+31-->[:location] C:\Users\nitro\Desktop\tez-main\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-79
+31-->[:location] C:\Users\nitro\Desktop\tez-main\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-76
+32
+33    <permission
+33-->[androidx.core:core:1.10.1] C:\Users\nitro\.gradle\caches\transforms-3\c26b441ec97db4694d6a36d402bfbb3c\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+34        android:name="com.example.kombin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.10.1] C:\Users\nitro\.gradle\caches\transforms-3\c26b441ec97db4694d6a36d402bfbb3c\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.10.1] C:\Users\nitro\.gradle\caches\transforms-3\c26b441ec97db4694d6a36d402bfbb3c\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.example.kombin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.10.1] C:\Users\nitro\.gradle\caches\transforms-3\c26b441ec97db4694d6a36d402bfbb3c\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.10.1] C:\Users\nitro\.gradle\caches\transforms-3\c26b441ec97db4694d6a36d402bfbb3c\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+38
+39    <application
+40        android:name="android.app.Application"
+40-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:8:9-42
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.10.1] C:\Users\nitro\.gradle\caches\transforms-3\c26b441ec97db4694d6a36d402bfbb3c\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:9:9-43
+43        android:label="kombin" >
+43-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:7:9-31
+44        <activity
+44-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:10:9-30:20
+45            android:name="com.example.kombin.MainActivity"
+45-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:11:13-41
+46            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+46-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:15:13-163
+47            android:exported="true"
+47-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:12:13-36
+48            android:hardwareAccelerated="true"
+48-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:16:13-47
+49            android:launchMode="singleTop"
+49-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:13:13-43
+50            android:theme="@style/LaunchTheme"
+50-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:14:13-47
+51            android:windowSoftInputMode="adjustResize" >
+51-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:17:13-55
+52
+53            <!--
+54                 Specifies an Android theme to apply to this Activity as soon as
+55                 the Android process has started. This theme is visible to the user
+56                 while the Flutter UI initializes. After that, this theme continues
+57                 to determine the Window background behind the Flutter UI.
+58            -->
+59            <meta-data
+59-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:22:13-25:17
+60                android:name="io.flutter.embedding.android.NormalTheme"
+60-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:23:15-70
+61                android:resource="@style/NormalTheme" />
+61-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:24:15-52
+62
+63            <intent-filter>
+63-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:26:13-29:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:27:17-68
+64-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:27:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:28:17-76
+66-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:28:27-74
+67            </intent-filter>
+68        </activity>
+69        <!--
+70             Don't delete the meta-data below.
+71             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+72        -->
+73        <meta-data
+73-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:33:9-35:33
+74            android:name="flutterEmbedding"
+74-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:34:13-44
+75            android:value="2" />
+75-->C:\Users\nitro\Desktop\tez-main\android\app\src\main\AndroidManifest.xml:35:13-30
+76
+77        <provider
+77-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:9-19:20
+78            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+78-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-82
+79            android:authorities="com.example.kombin.flutter.image_provider"
+79-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-74
+80            android:exported="false"
+80-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-37
+81            android:grantUriPermissions="true" >
+81-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-47
+82            <meta-data
+82-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-18:75
+83                android:name="android.support.FILE_PROVIDER_PATHS"
+83-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-67
+84                android:resource="@xml/flutter_image_picker_file_paths" />
+84-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:18:17-72
+85        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+86        <service
+86-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-33:19
+87            android:name="com.google.android.gms.metadata.ModuleDependencies"
+87-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-78
+88            android:enabled="false"
+88-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-36
+89            android:exported="false" >
+89-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
+90            <intent-filter>
+90-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-28:29
+91                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+91-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:27:17-94
+91-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:27:25-91
+92            </intent-filter>
+93
+94            <meta-data
+94-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-32:36
+95                android:name="photopicker_activity:0:required"
+95-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-63
+96                android:value="" />
+96-->[:image_picker_android] C:\Users\nitro\Desktop\tez-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:32:17-33
+97        </service>
+98
+99        <activity
+99-->[:url_launcher_android] C:\Users\nitro\Desktop\tez-main\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+100            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+100-->[:url_launcher_android] C:\Users\nitro\Desktop\tez-main\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+101            android:exported="false"
+101-->[:url_launcher_android] C:\Users\nitro\Desktop\tez-main\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+102            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+102-->[:url_launcher_android] C:\Users\nitro\Desktop\tez-main\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+103
+104        <service
+104-->[:location] C:\Users\nitro\Desktop\tez-main\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-17:56
+105            android:name="com.lyokone.location.FlutterLocationService"
+105-->[:location] C:\Users\nitro\Desktop\tez-main\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-71
+106            android:enabled="true"
+106-->[:location] C:\Users\nitro\Desktop\tez-main\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-35
+107            android:exported="false"
+107-->[:location] C:\Users\nitro\Desktop\tez-main\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-37
+108            android:foregroundServiceType="location" />
+108-->[:location] C:\Users\nitro\Desktop\tez-main\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-53
+109
+110        <activity
+110-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\nitro\.gradle\caches\transforms-3\1951bc33eeaa9610529bf3483b723c00\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+111            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+111-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\nitro\.gradle\caches\transforms-3\1951bc33eeaa9610529bf3483b723c00\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+112            android:exported="false"
+112-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\nitro\.gradle\caches\transforms-3\1951bc33eeaa9610529bf3483b723c00\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+113-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\nitro\.gradle\caches\transforms-3\1951bc33eeaa9610529bf3483b723c00\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+114
+115        <meta-data
+115-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\nitro\.gradle\caches\transforms-3\f0693f2301b507f3df8a841cc6866955\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+116            android:name="com.google.android.gms.version"
+116-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\nitro\.gradle\caches\transforms-3\f0693f2301b507f3df8a841cc6866955\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+117            android:value="@integer/google_play_services_version" />
+117-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\nitro\.gradle\caches\transforms-3\f0693f2301b507f3df8a841cc6866955\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+118
+119        <uses-library
+119-->[androidx.window:window:1.0.0-beta04] C:\Users\nitro\.gradle\caches\transforms-3\01d7db25946597559228e612e41688e0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+120            android:name="androidx.window.extensions"
+120-->[androidx.window:window:1.0.0-beta04] C:\Users\nitro\.gradle\caches\transforms-3\01d7db25946597559228e612e41688e0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+121            android:required="false" />
+121-->[androidx.window:window:1.0.0-beta04] C:\Users\nitro\.gradle\caches\transforms-3\01d7db25946597559228e612e41688e0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+122        <uses-library
+122-->[androidx.window:window:1.0.0-beta04] C:\Users\nitro\.gradle\caches\transforms-3\01d7db25946597559228e612e41688e0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+123            android:name="androidx.window.sidecar"
+123-->[androidx.window:window:1.0.0-beta04] C:\Users\nitro\.gradle\caches\transforms-3\01d7db25946597559228e612e41688e0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+124            android:required="false" />
+124-->[androidx.window:window:1.0.0-beta04] C:\Users\nitro\.gradle\caches\transforms-3\01d7db25946597559228e612e41688e0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+125
+126        <provider
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+127            android:name="androidx.startup.InitializationProvider"
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+128            android:authorities="com.example.kombin.androidx-startup"
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+129            android:exported="false" >
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+130            <meta-data
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+131                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+132                android:value="androidx.startup" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+133        </provider>
+134
+135        <receiver
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+136            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+137            android:directBootAware="false"
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+138            android:enabled="true"
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+139            android:exported="true"
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+140            android:permission="android.permission.DUMP" >
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+141            <intent-filter>
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+142                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+143            </intent-filter>
+144            <intent-filter>
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+145                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+146            </intent-filter>
+147            <intent-filter>
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+148                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+149            </intent-filter>
+150            <intent-filter>
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+151                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nitro\.gradle\caches\transforms-3\43f0beca977ed12d36b22d0dd467a1b0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+152            </intent-filter>
+153        </receiver>
+154    </application>
+155
+156</manifest>
